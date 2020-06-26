@@ -6,6 +6,7 @@
 A skeleton for R packages + Docker / Pkgdown / Pages aimed for
 Bioconductor
 
+![.github/workflows/build.yaml](https://github.com/montilab/rpkgs/workflows/.github/workflows/build.yaml/badge.svg)
 [![](https://img.shields.io/badge/lifecycle-maturing-4ba598.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
 ## Documentation
