@@ -1,0 +1,26 @@
+url: https://montilab.github.io/rpkgs
+
+template:
+  params:
+    bootswatch: flatly
+
+home:
+  title: "R Package Skeleton"
+  type: inverse
+
+navbar:
+  title: "rpkgs"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Docs"
+      menu:
+      - text: "Basic Usage"
+        href: articles/docs/basics.html
+    - text: "Reference"
+      href: reference/index.html
+  right:
+    - text: "Change Log"
+      href: news/index.html
+    - icon: fa-github
+      href: https://github.com/montilab/rpkgs

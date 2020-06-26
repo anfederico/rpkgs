@@ -1,0 +1,39 @@
+---
+title: "Basic Usage"
+vignette: >
+  %\VignetteIndexEntry{Basic Usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r include=FALSE, messages=FALSE, warnings=FALSE}
+devtools::load_all(".")
+```
+
+## What is this for?
+This would be one page of your documentation...
+
+## Usage
+
+```{r, eval=FALSE}
+library(rpkgs)
+```
+
+```{r}
+data(example)
+print(example)
+```
+
+```{r}
+cols <- colorize(example)
+print(cols)
+```
+
+```{r}
+colorize(c(1,2,3))
+colorize(c(0.1,0.5,2))
+```
+
+```{r}
+visualize(colorize(c(0.1,0.5,2,10,25)), by=50)
+```

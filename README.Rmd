@@ -1,10 +1,16 @@
+---
+output: rmarkdown::github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rpkgs
+```{r echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(message=FALSE, comment="#>")
+devtools::load_all(".")
+```
 
-A skeleton for R packages + Docker / Pkgdown / Pages aimed for
-Bioconductor
+# rpkgs
+A skeleton for R packages + Docker / Pkgdown / Pages aimed for Bioconductor
 
 [![](https://img.shields.io/badge/lifecycle-maturing-4ba598.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
@@ -14,8 +20,7 @@ Please visit <https://montilab.github.io/rpkgs/>
 
 ## Requirements
 
-We recommend the latest version of R (\>= 4.0.0) but **rpkgs** currently
-requires R (\>= 3.6.0) to be installed.
+We recommend the latest version of R (\>= 4.0.0) but **rpkgs** currently requires R (\>= 3.6.0) to be installed.
 
 ## Installation
 
@@ -27,26 +32,20 @@ devtools::install_github("montilab/rpkgs")
 
 ## Usage
 
-``` r
+```{r, eval=FALSE}
 library(rpkgs)
 ```
 
-``` r
+```{r}
 data(example)
 print(example)
 ```
 
-    #> [1]  1  2  5 10 25
-
-``` r
+```{r}
 cols <- colorize(example)
 print(cols)
 ```
 
-    #> [1] "#0D0887FF" "#280592FF" "#5D01A6FF" "#A92395FF" "#F0F921FF"
-
-``` r
+```{r}
 visualize(cols)
 ```
-
-![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->

@@ -1,0 +1,27 @@
+---
+title: "rpkgs"
+author:
+- name: Anthony Federico
+  affiliation:
+  - &1 Boston University School of Medicine, Boston, MA
+  - &2 Bioinformatics Program, Boston University, Boston, MA
+- name: Stefano Monti
+  affiliation:
+  - *1
+  - *2
+date: '`r format(Sys.Date(), "%B %e, %Y")`'
+package: rpkgs
+vignette: >
+    %\VignetteIndexEntry{rpkgs}
+    %\VignetteEncoding{UTF-8}
+    %\VignetteEngine{knitr::rmarkdown}
+editor_options:
+    chunk_output_type: console
+---
+
+```{r include=FALSE, messages=FALSE, warnings=FALSE}
+devtools::load_all(".")
+```
+
+## What is this for?
+This is where your Bioconductor vignette would go...
