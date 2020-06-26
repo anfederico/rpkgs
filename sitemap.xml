@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://montilab.github.io/rpkgs/index.html</loc>
+  </url>
+  <url>
+    <loc>https://montilab.github.io/rpkgs/reference/colorize.html</loc>
+  </url>
+  <url>
+    <loc>https://montilab.github.io/rpkgs/reference/dot-normalize.range.html</loc>
+  </url>
+  <url>
+    <loc>https://montilab.github.io/rpkgs/reference/dot-normalize.zo.html</loc>
+  </url>
+  <url>
+    <loc>https://montilab.github.io/rpkgs/reference/example.html</loc>
+  </url>
+  <url>
+    <loc>https://montilab.github.io/rpkgs/reference/visualize.html</loc>
+  </url>
+  <url>
+    <loc>https://montilab.github.io/rpkgs/articles/docs/basics.html</loc>
+  </url>
+  <url>
+    <loc>https://montilab.github.io/rpkgs/articles/rpkgs.html</loc>
+  </url>
+</urlset>
