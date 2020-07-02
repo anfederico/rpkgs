@@ -9,6 +9,37 @@ Bioconductor
 ![.github/workflows/build.yaml](https://github.com/montilab/rpkgs/workflows/.github/workflows/build.yaml/badge.svg)
 [![](https://img.shields.io/badge/lifecycle-maturing-4ba598.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
+## Halp
+
+Having trouble getting your package to build?
+
+#### Build your Dockerfile locally
+
+``` bash
+docker build --tag montilab/rpkgs:latest .
+```
+
+Does it build successfully?
+
+#### See if the package is loadable on the image
+
+    docker run -i -t montilab/rpkgs:latest /bin/bash
+    R
+    library(rpkgs)
+    data(example)
+    print(example)
+
+#### Build your github workflow file slowly and locally
+
+    # Install this tool for local testing
+    brew install nektos/tap/act
+    
+    # List the actions
+    act -l
+    
+    # Run the default (`push`) event:
+    act
+
 ## Documentation
 
 Please visit <https://montilab.github.io/rpkgs/>
