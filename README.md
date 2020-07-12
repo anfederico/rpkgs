@@ -82,3 +82,25 @@ visualize(cols)
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+``` r
+citation("rpkgs")
+```
+
+    #> 
+    #> To cite rpkgs in publications use:
+    #> 
+    #>   A Skeleton R Package (2020) Monti Lab.
+    #> 
+    #> A BibTeX entry for LaTeX users is
+    #> 
+    #>   @Article{,
+    #>     title = {A Skeleton R Package},
+    #>     author = {Anthony Federico},
+    #>     journal = {Monti Lab},
+    #>     year = {2020},
+    #>     volume = {1},
+    #>     number = {1},
+    #>     pages = {1-2},
+    #>     url = {https://github.com/montilab/rpkgs},
+    #>   }

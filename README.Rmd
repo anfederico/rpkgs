@@ -83,3 +83,7 @@ print(cols)
 ```{r}
 visualize(cols)
 ```
+
+```{r}
+citation("rpkgs")
+```
