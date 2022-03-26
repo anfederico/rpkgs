@@ -9,7 +9,7 @@ Bioconductor
 ![.github/workflows/build.yaml](https://github.com/montilab/rpkgs/workflows/.github/workflows/build.yaml/badge.svg)
 [![](https://img.shields.io/badge/lifecycle-maturing-4ba598.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
-## Halp
+## Help
 
 Having trouble getting your package to build?
 
